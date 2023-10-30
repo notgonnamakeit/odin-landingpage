@@ -1,0 +1,163 @@
+* {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+html {
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    flex: 1 1 800px;
+}
+
+.header,
+.footer,
+.top {
+    background: #1f2937;
+    color: white;
+    display: flex;
+    padding: 20px 100px;
+}
+
+.header .logo {
+    margin-right: auto;
+}
+
+.header .links {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    gap: 20px;
+}
+
+.top {
+    background: #1f2937;
+    gap: 40px;
+    justify-content: center;
+    padding: 50px 100px;
+
+}
+
+.top div {
+    flex: 1 1 300px;
+}
+
+button {
+    border-radius: 5px;
+    padding: 10px 35px;
+    background: #3882f6;
+}
+
+.top button {
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+
+.information {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+}
+
+.information h2 {
+    margin: 40px;
+}
+
+.information .card {
+    flex: 0 1 200px;
+}
+
+.information p {
+    padding: 10px;
+}
+
+.card img {
+    border: 3px solid blue;
+    border-radius: 10px;
+}
+
+
+.quote {
+    background: #e5e7eb;
+    /* width: 600px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 100px;
+    min-height: 220px;
+}
+
+.quote .container {
+    max-width: 800px;
+    flex: auto;
+}
+
+.quote h3 {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    max-width: 800px;
+}
+
+.quote h4 {
+    text-align: right;
+}
+
+.cta-container {
+    display: flex;
+    justify-content: center;
+}
+
+.call-to-action {
+    background: #3882f6;
+    color: white;
+    padding: 40px 80px;
+    margin: 50px 200px;
+    border-radius: 5px;
+    max-width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+}
+
+
+.call-to-action .text {
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 auto;
+    /* margin-right: auto; */
+}
+
+.call-to-action button {
+    color: white;
+    font-weight: bold;
+    /* padding: 0; */
+    border: 1px solid white;
+    /* margin-left: auto; */
+    flex: 0 1 auto;
+}
+
+.call-to-action .head {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+.call-to-action .sub-head {
+    font-weight: 100;
+}
+
+.footer {
+    justify-content: center;
+}
+
